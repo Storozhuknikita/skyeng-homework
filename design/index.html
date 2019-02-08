@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 1</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+    <div class="container">
+
+      <div class="blocks">
+
+        <div class="block">
+          <a href="#openDevice" class="block-hover">
+            <img src="img/device.svg">
+            <h1>Mobile</h1>
+            <div class="block-desc">
+              Get notifications about new releases in our mobile app.
+            </div>
+            <div class="block-price"><sup>$</sup><span>10</span>/month</div>
+          </a>
+        </div>
+
+        <div class="block">
+          <a href="#openLaptop" class="block-hover">
+            <div class="block-img"><img src="img/laptop.svg"></div>
+            <h1>Desktop</h1>
+            <div class="block-desc">
+              Enjoy new episodes on your laptop in browser with our web service, which supports all the platforms.
+            </div>
+            <div class="block-price"><sup>$</sup><span>15</span>/month</div>
+          </a>
+        </div>
+
+        <div class="block">
+          <a href="#openMonitor" class="block-hover">
+            <img src="img/monitor.svg">
+            <h1>TV</h1>
+            <div class="block-desc">
+              Watch your favorite series at home on large screen with our TV application.
+            </div>
+            <div class="block-price"><sup>$</sup><span>20</span>/month</div>
+          </a>
+        </div>
+        
+      </div>
+
+      <div style="clear:both;">&nbsp;</div>
+
+      <div class="block-button">
+        <a href="#" class="btn">Give feedback</a>
+      </div>
+
+
+      <!-- Модальные окна -->
+      <div id="openDevice" class="modalDialog">
+        
+        <div class="block">
+          <a href="#close" title="Закрыть" class="close">&nbsp;</a>
+          <h2>Confirmation</h2>
+          <img src="img/device.svg">
+          <h1>Mobile</h1>
+          <div class="block-desc">
+            Get notifications about new releases in our mobile app.
+          </div>
+          <div class="block-price"><sup>$</sup><span>10</span>/month</div>
+          <a href="#" class="btn">Confirm and pay</a>
+        </div>
+
+      </div>
+
+      <div id="openLaptop" class="modalDialog">
+        
+        <div class="block">
+          <a href="#close" title="Закрыть" class="close">&nbsp;</a>
+          <h2>Confirmation</h2>
+          <img src="img/laptop.svg">
+          <h1>Desktop</h1>
+          <div class="block-desc">
+              Enjoy new episodes on your laptop in browser with our web service, which supports all the platforms.
+          </div>
+            <div class="block-price"><sup>$</sup><span>15</span>/month</div>
+          <a href="#" class="btn">Confirm and pay</a>
+        </div>
+      </div>
+
+      <div id="openMonitor" class="modalDialog">
+        
+        <div class="block">
+          <a href="#close" title="Закрыть" class="close">&nbsp;</a>
+          <h2>Confirmation</h2>
+          <img src="img/monitor.svg">
+          <h1>TV</h1>
+          <div class="block-desc">
+              Watch your favorite series at home on large screen with our TV application.
+          </div>
+          <div class="block-price"><sup>$</sup><span>20</span>/month</div>
+          <a href="#" class="btn">Confirm and pay</a>
+        </div>
+
+      </div>
+
+    </div>
+  <!--
+    Welcome to your first asset!
+
+    You could've noticed there is a link to Roboto font in the head.
+    You can use it in css by typing font-family: Roboto, sans-serif;
+    and you can customize it by using font-weight (400, 500 etc. - numbers in the link tag)
+
+    Good luck and have fun!
+  -->
+</body>
+</html>
